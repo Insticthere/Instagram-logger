@@ -1,4 +1,4 @@
-const whurl ="https://discord.com/api/webhooks/893828775236734996/K7W2ZmdJsVDuAUzl_PNT1rfWCCUWQ_jHPkWrdjQC9Mx0Vj5jkahzNtRjZ9jQ8oxoyNDf"
+const whurl ="" //insert discord webhook here
 
 
 
